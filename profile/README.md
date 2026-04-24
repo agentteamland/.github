@@ -23,7 +23,7 @@ Install a team once, and every agent it contains is symlinked into your project'
 |---|---|
 | **macOS / Linux** | `brew install agentteamland/tap/atl` |
 | **Windows (Scoop)** | `scoop bucket add agentteamland https://github.com/agentteamland/scoop-bucket`<br/>`scoop install atl` |
-| **Windows (winget)** | `winget install agentteamland.atl` *(awaiting Microsoft review)* |
+| **Windows (winget)** | `winget install agentteamland.atl` |
 | **Manual** | [Download from Releases](https://github.com/agentteamland/cli/releases) |
 
 ## Install a team
