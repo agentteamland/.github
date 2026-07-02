@@ -15,7 +15,7 @@
 
 AgentTeamLand is `atl`: a package manager for **teams of AI agents**. Each team bundles specialized agents (plus their skills and rules) for a kind of work — full-stack web apps, design systems, and more. Install a team once, and every agent it ships lands in your project's Claude Code directory, kept current and wired for background learning automatically.
 
-Everything lives in one repo: **[agentteamland/atl](https://github.com/agentteamland/atl)** — the `atl` CLI, the core rules + skills, the first-party teams, and the docs.
+Everything lives in one repo: **[agentteamland/atl](https://github.com/agentteamland/atl)** — the `atl` CLI, the core rules + skills, and the docs.
 
 ## Install `atl`
 
@@ -28,17 +28,15 @@ Everything lives in one repo: **[agentteamland/atl](https://github.com/agentteam
 ## Install a team
 
 ```bash
-atl install software-project-team
+atl search                      # browse the catalog
+atl install <handle>/<team>
 ```
 
-Every agent / skill / rule the team provides lands in your project's `.claude/`. Browse the catalog with `atl search`.
+Every agent / skill / rule the team provides lands in your project's `.claude/`.
 
 ## First-party teams
 
-| Team | What it does |
-|---|---|
-| software-project-team | 13 agents for production full-stack software (.NET 9 + Flutter + React + Docker) |
-| design-system-team | Native design-system + prototype generation, entirely inside Claude Code |
+The v1-era first-party teams were retired in July 2026 and are being **rebuilt on the v2 platform** — starting with a shared user-profile team, followed by a new software developer team. Watch the [atl repo](https://github.com/agentteamland/atl) for releases.
 
 ## Publish your own team
 
