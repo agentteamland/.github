@@ -13,7 +13,7 @@
 
 ## What is this?
 
-AgentTeamLand is `atl`: a package manager for **teams of AI agents**. Each team bundles specialized agents (plus their skills and rules) for a kind of work — full-stack web apps, design systems, and more. Install a team once, and every agent it ships lands in your project's Claude Code directory, kept current and wired for background learning automatically.
+AgentTeamLand is `atl`: a package manager for **teams of AI agents**. Each team bundles specialized agents (plus their skills and rules) for a kind of work — autonomous software delivery, a personal advisor, a shared profile, and more. Install a team once, and every agent it ships lands in your project's Claude Code directory, kept current and wired for background learning automatically.
 
 Everything lives in one repo: **[agentteamland/atl](https://github.com/agentteamland/atl)** — the `atl` CLI, the core rules + skills, and the docs.
 
@@ -36,7 +36,15 @@ Every agent / skill / rule the team provides lands in your project's `.claude/`.
 
 ## First-party teams
 
-The v1-era first-party teams were retired in July 2026 and are being **rebuilt on the v2 platform** — starting with a shared user-profile team, followed by a new software developer team. Watch the [atl repo](https://github.com/agentteamland/atl) for releases.
+The v1-era teams were retired in July 2026 and **rebuilt on the v2 platform**. Three ship today — install any with `atl install agentteamland/<team>`:
+
+| Team | What it does |
+|---|---|
+| **profile-team** | A shared, cross-project profile of the people, places, and things in your world — the memory layer the other teams build on. |
+| **personal-advisory-team** | An honest, wise advisor that comes to know you across conversations and, because it won't flatter you, becomes the one you run to. |
+| **delivery-team** | An autonomous software-delivery org — analysts, PM, tech-lead, testers, developers — that runs a real sprint/Scrum loop on Azure DevOps or GitHub. |
+
+More are on the way — watch the [atl repo](https://github.com/agentteamland/atl) for releases.
 
 ## Publish your own team
 
@@ -44,7 +52,7 @@ The v1-era first-party teams were retired in July 2026 and are being **rebuilt o
 2. Tag a release and add the `atl-team` GitHub topic.
 3. Run `atl publish` — the index picks it up, so `atl search` + `atl install <handle>` make it available to everyone.
 
-Full docs: **[agentteamland.github.io/docs](https://agentteamland.github.io/docs/)**.
+Full docs: **[docs.agentteamland.com](https://docs.agentteamland.com/)**.
 
 ## License
 
